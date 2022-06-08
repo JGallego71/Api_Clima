@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App Clima</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <script src='cliente.js'></script>
+</head>
+<body> 
+
+  <div class="container">
+
+    <header>
+      <h1>API CLIMA</h1>
+    </header>
+
+    <!-- <nav>
+      <h2>Menú</h2>
+    </nav> -->
+
+    <div class="clearfix"></div>
+    
+    <section class="content">
+
+      <article class="article">
+        <h3>Cosulta el clima de la ciudad que desees</h3>
+      </article>
+
+      <article class="article">
+        <p>Escribe el nombre de la ciudad</p>
+      </article>
+
+      <input type="text" id="ciudad" class ="display">
+      <button class="boton" onclick="consultaClima()">Consultar</button>
+
+      <p>Ciudad</p>
+      <h1 id="resultado3" class="resultado"></h1>
+      <hr>
+      <p>Temperatura</p>
+      <h1 id="resultado" class="resultado"></h1>
+      <hr>
+      <p>Velocidad del viento</p>
+      <h1 id="resultado1" class="resultado"></h1>
+      <hr>
+      <p>Humedad</p>
+      <h1 id="resultado2" class="resultado"></h1>
+      <hr>
+    </section>
+
+    
+
+    <aside>
+      <p class="p_aside">Few clouds</p>
+      <img src="./image2.png" style="padding-left: 50px;">
+      <p class="p_aside">Thunderstorm</p>
+      <img style="padding-left: 50px;" src="./image3.png">
+      <p class="p_aside">Clear sky</p>
+      <img style="padding-left: 50px;" src="./image4.png">
+      <p class="p_aside">Rain</p>
+      <img style="padding-left: 50px;" src="./image5.png">
+    </aside>
+
+    <div class="clearfix"></div>
+    
+    <footer>
+      <a href="https://openweathermap.org/" target="_blank">OpenWeather</a>
+      <a href="https://app.netlify.com/" target="_blank">Netlify</a>
+      <a href="https://github.com/" target="_blank">Github</a>
+      <p style="text-align: right; margin-top: -23px">Johegari@gmail.com</p>
+    </footer>
+
+  </div>
+</body>
+</html>
